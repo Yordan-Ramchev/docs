@@ -569,6 +569,10 @@ export default defineConfigWithTheme<ThemeConfig>({
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
+  sitemap: {
+    hostname: 'https://vuejs.org'
+  }
+
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:url', content: 'https://vuejs.org/' }],
